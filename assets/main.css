@@ -1,0 +1,40 @@
+/* App-wide styling */
+body {
+    background-color: #0f1116;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; /* better for full centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-div input {
+    width: 450px;
+    padding: 10px; /* better spacing */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+
+    background: transparent;
+    color: white;
+
+    border: none; /* remove default border */
+    border-bottom: 1px solid grey;
+
+    outline: none;
+}
+
+/* Optional: focus effect */
+.main-div input:focus {
+    border-bottom: 1px solid #00bcd4;
+}
