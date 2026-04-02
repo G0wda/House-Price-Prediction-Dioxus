@@ -1,8 +1,5 @@
-use std::fs::File;
-use std::io::{BufRead, BufReader};
 use linfa::prelude::*;
-use linfa_linear::LinearRegression;
-use ndarray::{Array1,Array2};
+use ndarray::Array2;
 
 pub struct HouseInput {
     pub longitude: f64,
